@@ -101,7 +101,7 @@ if __name__ == '__main__':
     parser.add_argument('--content_path', nargs='+', type=str, help='list of content images', default=["inputs/content/C1.png"])
     parser.add_argument('--style_path', nargs='+', type=str, help='list of style images', default=["inputs/style/S3.jpg"])
     parser.add_argument('--output_folder', nargs='+', type=str, help='output folder location', default=[""])
-    parser.add_argument('--style_weight', nargs='+', type=float, default=[0.9])
+    parser.add_argument('--style_weight', nargs='+', type=float, default=[0.75])
 
     assert torch.cuda.is_available(), "attempted to use gpu when unavailable"
 
