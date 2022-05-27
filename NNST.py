@@ -23,9 +23,10 @@ np.random.seed(0)
 torch.manual_seed(0)
 
 
+# These should come from our helpers
 ################################################################################
 
-# foreach(max) style for vvvv
+# foreach(max) style for vvvv.  
 from itertools import cycle, islice
 
 def cycle_args(function, *args):
@@ -49,7 +50,8 @@ def filename(path):
 
 
 
-def style_transfer(content_path, style_path, output_folder, style_weight):
+def style_transfer(content_path, style_path, output_path, style_weight):
+    
     # lock size to 1024 rather than 512
     max_scls = 5
     sz = 1024
@@ -69,8 +71,7 @@ def style_transfer(content_path, style_path, output_folder, style_weight):
     # Load images
     content_im_orig = misc.to_device(load_path_for_pytorch(content_path, target_size=sz)).unsqueeze(0)
     style_im_orig = misc.to_device(load_path_for_pytorch(style_path, target_size=sz)).unsqueeze(0)
-    output_name = F"{filename(content_path)}_{style_weight}_{filename(style_path)}."
-    #output_name = filename(content_path) + '_' + filename(style_path)
+
 
     # Run Style Transfer
     torch.cuda.synchronize()
@@ -84,23 +85,22 @@ def style_transfer(content_path, style_path, output_folder, style_weight):
                                 content_loss=content_loss,
                                 dont_colorize=dont_colorize)
     torch.cuda.synchronize()
-    print(output_name + ' done, total time: {}'.format(time.time() - start_time))
+    print(filename(output_path) + ' done, total time: {}'.format(time.time() - start_time))
 
     # Convert from pyTorch to numpy, clip to valid range
     new_im_out = np.clip(output[0].permute(1, 2, 0).detach().cpu().numpy(), 0., 1.)
 
     # Save stylized output
     save_im = (new_im_out * 255).astype(np.uint8)
-    output_path = os.path.join(output_folder, output_name + ".jpg")
     imwrite(output_path, save_im)
 
 
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('--content_path', nargs='+', type=str, help='list of content images', default=["inputs/content/C1.png"])
-    parser.add_argument('--style_path', nargs='+', type=str, help='list of style images', default=["inputs/style/S3.jpg"])
-    parser.add_argument('--output_folder', nargs='+', type=str, help='output folder location', default=[""])
+    parser.add_argument('--content_path', nargs='+', type=str, help='list of content image paths', default=["inputs/content/C1.png"])
+    parser.add_argument('--style_path', nargs='+', type=str, help='list of style image paths', default=["inputs/style/S3.jpg"])
+    parser.add_argument('--output_path', nargs='+', type=str, help='list of saved output images paths', default=[""])
     parser.add_argument('--style_weight', nargs='+', type=float, default=[0.75])
 
     assert torch.cuda.is_available(), "attempted to use gpu when unavailable"
