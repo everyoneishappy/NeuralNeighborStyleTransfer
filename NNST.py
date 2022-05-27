@@ -48,6 +48,12 @@ def style_transfer(content_path, style_path, output_path, style_weight):
     max_scls = 5
     sz = 1024
 
+    # swith to 512 if you get an OOM error!
+    """""
+    max_scls = 4
+    sz = 512
+    """""
+
     # could add to args later
     flip_aug = False
     dont_colorize = False
@@ -93,7 +99,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--content_path', nargs='+', type=str, help='list of content image paths', default=["inputs/content/C1.png"])
     parser.add_argument('--style_path', nargs='+', type=str, help='list of style image paths', default=["inputs/style/S3.jpg"])
-    parser.add_argument('--output_path', nargs='+', type=str, help='list of saved output images paths', default=[""])
+    parser.add_argument('--output_path', nargs='+', type=str, help='list of saved output images paths', default=["inputs/out.jpg"])
     parser.add_argument('--style_weight', nargs='+', type=float, default=[0.75])
     args = parser.parse_args()
 
