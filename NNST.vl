@@ -19,7 +19,7 @@
     ************************ CondaLaucher ************************
 
 -->
-          <Node Name="CondaLaucher" Bounds="76,666" Id="AbhM3gL8oQ0QIVGh0PYZ3t">
+          <Node Name="CondaLaucher" Bounds="60,760" Id="AbhM3gL8oQ0QIVGh0PYZ3t">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -349,7 +349,7 @@
               <Link Id="IDepvq9YXosMMO2ZDaTtoP" Ids="GV872p6648oNP1BFY2kXLg,OzTz51iaQCUNG7GjfnwMGS" IsHidden="true" />
             </Patch>
           </Node>
-          <Node Bounds="296,770,105,19" Id="Laigjo9eGfMNsfZLWOeHPW">
+          <Node Bounds="265,770,185,19" Id="Laigjo9eGfMNsfZLWOeHPW">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CondaLaucher" />
@@ -368,25 +368,25 @@
             <Pin Id="E96fT4cp0TnO8ZHlycLXeb" Name="IsRunning" Kind="OutputPin" />
             <Pin Id="T7Lmp7pVQeCLVnBhrsKWwU" Name="Args" Kind="OutputPin" />
           </Node>
-          <Pad Id="HKp4ZEDP0Y3N3muQu0LSM0" Comment="Environment Name" Bounds="356,721,63,15" ShowValueBox="true" isIOBox="true" Value="gma">
+          <Pad Id="HKp4ZEDP0Y3N3muQu0LSM0" Comment="Environment Name" Bounds="374,677,63,15" ShowValueBox="true" isIOBox="true" Value="gma">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CfNnWpwsPOkLy7bvLgIlZW" Comment="Conda Path" Bounds="378,747,238,15" ShowValueBox="true" isIOBox="true" Value="C:\Users\Kyle\anaconda3\Scripts\conda.exe">
+          <Pad Id="CfNnWpwsPOkLy7bvLgIlZW" Comment="Conda Path" Bounds="410,702,121,10" ShowValueBox="true" isIOBox="true" Value="C:\Users\Kyle\anaconda3\Scripts\conda.exe">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="D0uzfv8mWEHNkmFQ68JCh5" Comment="Script Path" Bounds="336,695,275,0" ShowValueBox="true" isIOBox="true" Value="NNST.py">
+          <Pad Id="D0uzfv8mWEHNkmFQ68JCh5" Comment="Script Path" Bounds="338,651,98,-7" ShowValueBox="true" isIOBox="true" Value="NNST.py">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RNnAHf5KdsINAFI5Vr7yoS" Comment="Args" Bounds="400,925,853,708" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="EcsCAixAYdRL6MmX2msJBN" Comment="IsRunning" Bounds="379,831,54,23" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="EyzDPHNHbo1QMvoa3ABAZ0" Comment="Exit Code" Bounds="358,808,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Cq32ZgL6HhTPtJ0pz3idA9" Comment="Execute" Bounds="400,514,101,62" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="RNnAHf5KdsINAFI5Vr7yoS" Comment="Args" Bounds="449,917,853,708" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="EcsCAixAYdRL6MmX2msJBN" Comment="IsRunning" Bounds="413,843,54,23" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="EyzDPHNHbo1QMvoa3ABAZ0" Comment="Exit Code" Bounds="376,803,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Cq32ZgL6HhTPtJ0pz3idA9" Comment="Execute" Bounds="447,510,132,64" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -449,7 +449,7 @@
               <Item>..\..\..\..\..\GoogleDrive\Assets\Image\2017-08-18 19.33.04.jpg</Item>
             </p:Value>
           </Pad>
-          <Pad Id="SMPN41UdbXNPvRHIUvec5i" Comment="Content Path" Bounds="119,149,309,111" ShowValueBox="true" isIOBox="true">
+          <Pad Id="SMPN41UdbXNPvRHIUvec5i" Comment="Content Path" Bounds="129,132,309,111" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -502,7 +502,7 @@
             <Pin Id="OMU5hMDRRllQZsf4uf6gwB" Name="Value" Kind="OutputPin" />
             <Pin Id="R8kULBNx232LsnGNcExYeF" Name="On Data" Kind="OutputPin" />
           </Node>
-          <Node Bounds="693,183,85,19" Id="VXdJDP17KBKPVGacXId9SZ">
+          <Node Bounds="700,183,85,19" Id="VXdJDP17KBKPVGacXId9SZ">
             <p:NodeReference LastCategoryFullName="IO.Path" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Dir" />
@@ -514,7 +514,7 @@
             <Pin Id="PmhLzttIqKFPljbpI8Wzrl" Name="Refresh" Kind="InputPin" DefaultValue="False" />
             <Pin Id="UZdG1KCR2kYNIEjRfP9nbC" Name="Files" Kind="OutputPin" />
           </Node>
-          <Pad Id="MvZRx2S2YvPPiVSXTWh5b3" Comment="Source Image Sequence" Bounds="695,143,244,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\ProjectsOffline\NNST\Source\HolyMan\">
+          <Pad Id="MvZRx2S2YvPPiVSXTWh5b3" Comment="Source Image Sequence" Bounds="702,143,244,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\ProjectsOffline\NNST\EbSynth Test\video\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -522,7 +522,7 @@
               <p:pathtype p:Assembly="VL.Core" p:Type="VL.Core.PathType">Directory</p:pathtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="693,212,83,19" Id="BHTSi0AgL2MOSiIOMw5n3x">
+          <Node Bounds="700,212,83,19" Id="BHTSi0AgL2MOSiIOMw5n3x">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ResamplePoint" />
@@ -532,7 +532,7 @@
             <Pin Id="S9YaNWbUjqFPVeYMVhujS2" Name="Output" Kind="OutputPin" />
             <Pin Id="GB4we9DdNH0PPBZ8xsCAJe" Name="Interval" Kind="OutputPin" />
           </Node>
-          <Node Bounds="207,401,65,19" Id="UB3fmlF3XpEPniCUUIBQzt">
+          <Node Bounds="217,384,65,19" Id="UB3fmlF3XpEPniCUUIBQzt">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -645,7 +645,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Overlay Id="KPF8R90fJVgMtYWBFYG7uY" Name="Rename Upscales" Bounds="1942,-1075,811,417" />
-          <Pad Id="TDbeZ2khIvOLSsv2t5JbTx" Comment="Style Path" Bounds="208,333,161,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\GoogleDrive\PersonalProjects\NNST\Styles\Masson-Landscape_of_Wonders.jpg">
+          <Pad Id="TDbeZ2khIvOLSsv2t5JbTx" Comment="Style Path" Bounds="218,316,161,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\GoogleDrive\PersonalProjects\NNST\Styles\Kandinsky-Composition_8.jpg">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Path" />
               <FullNameCategoryReference ID="IO" />
@@ -654,7 +654,7 @@
               <p:pathtype p:Assembly="VL.Core" p:Type="VL.Core.PathType">File</p:pathtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TTKn6vWGny7LsTU7YkHi95" Bounds="738,658,526,25" ShowValueBox="true" isIOBox="true" Value="https://analyticsindiamag.com/a-hands-on-guide-to-neural-neighbor-style-transfer/">
+          <Pad Id="TTKn6vWGny7LsTU7YkHi95" Bounds="750,632,526,25" ShowValueBox="true" isIOBox="true" Value="https://analyticsindiamag.com/a-hands-on-guide-to-neural-neighbor-style-transfer/">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -676,11 +676,6 @@
               <Canvas Id="VjwcMOGCMKeOG8hUB0M9Bk" BordersChecked="false" CanvasType="Group" />
               <Patch Id="Ipw0tOHqO3hNjAWknOrPb4" Name="Create" />
               <Patch Id="JJXCIHafSRaOqpBtkfBqMw" Name="Update" />
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="CegEVXFQvuxMbLmCHnP81T">
                 <Fragment Id="GAMxo0d4m0COCwDof03BDR" Patch="Ipw0tOHqO3hNjAWknOrPb4" Enabled="true" />
                 <Fragment Id="MHhgltPx7FWQYBOzsGvV7g" Patch="JJXCIHafSRaOqpBtkfBqMw" Enabled="true" />
@@ -692,7 +687,7 @@
     ************************ NNSTScript ************************
 
 -->
-          <Node Name="NNSTScript" Category="Conda" Bounds="747,722" Id="N154Jr0EjLSNobN8Ef1aYv">
+          <Node Name="NNSTScript" Category="Conda" Bounds="759,696" Id="N154Jr0EjLSNobN8Ef1aYv">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -904,11 +899,6 @@
                 <ControlPoint Id="IEbgaZiqULcPMp0F4QJ29k" Bounds="806,678" />
                 <ControlPoint Id="R9QFuoohSzuPSqjmWBUREM" Bounds="988,678" />
               </Canvas>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="J5yLtIIR1kHQFI8YxwET6Z">
                 <Fragment Id="FWB2dq2R9jFNVFBr1Xd6zy" Patch="Oo1dBK7girhL5lWlu4PdVI" Enabled="true" />
                 <Fragment Id="BTXOakPyF1ENQFUX3Y5IpL" Patch="Bd8FFpOksyUMDpTAYTInA9" Enabled="true" />
@@ -963,7 +953,7 @@
               <Link Id="JUA4QljphewLSMaxbjdPrh" Ids="SMxW6NgfVQqPt05jZT1P6m,BpyDGT44vuIMCVlvh0qfno" />
             </Patch>
           </Node>
-          <Node Bounds="115,458,281,19" Id="P2nhlillj2AOxcbznr0LiD">
+          <Node Bounds="125,441,281,19" Id="P2nhlillj2AOxcbznr0LiD">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="NNSTScript" />
@@ -974,7 +964,7 @@
             <Pin Id="Mzona45vF2COMukhRjC2yz" Name="Output Path" Kind="InputPin" />
             <Pin Id="ViPHuH0fM0TP4cxkpFojlW" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="296,401,65,19" Id="Um9nfrn80APMPVkB4VJNcC">
+          <Node Bounds="306,384,65,19" Id="Um9nfrn80APMPVkB4VJNcC">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -983,13 +973,13 @@
             <Pin Id="QzX6Y6fgMBlOEqrpTCfF8T" Name="Input" Kind="InputPin" />
             <Pin Id="PbpsjZNgd7YMRUrH1DM4Gk" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="DoV9jmLo3B2Newyibk6RPq" Comment="Style Weight" Bounds="300,357,36,15" ShowValueBox="true" isIOBox="true" Value="0.7">
+          <Pad Id="DoV9jmLo3B2Newyibk6RPq" Comment="Style Weight" Bounds="310,340,36,15" ShowValueBox="true" isIOBox="true" Value="0.7">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1033,234,55,19" Id="TDff8UKFFLWOHa7Kw5Fibi">
+          <Node Bounds="1040,234,55,19" Id="TDff8UKFFLWOHa7Kw5Fibi">
             <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -997,9 +987,9 @@
             <Pin Id="L6lMsUfSHiNMXwHMZr26N4" Name="Input" Kind="InputPin" />
             <Pin Id="GTGXCvZgsk2NJSKrSWGfHQ" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="I5XA1nGPXPELfx3feJdCc6" Comment="Argument Dictionary" Bounds="117,510" isIOBox="true" />
-          <Pad Id="V4WrvYeBxFxMTMCbZdZoG0" Comment="Arguments" Bounds="294,633" isIOBox="true" />
-          <Pad Id="HYWyBttzTp6NJpKxedRVXp" Comment="Arguments Pattern" Bounds="315,662,46,15" ShowValueBox="true" isIOBox="true" Value="--{0} {1}">
+          <Pad Id="I5XA1nGPXPELfx3feJdCc6" Comment="Argument Dictionary" Bounds="128,500" isIOBox="true" />
+          <Pad Id="V4WrvYeBxFxMTMCbZdZoG0" Comment="Arguments" Bounds="269,593" isIOBox="true" />
+          <Pad Id="HYWyBttzTp6NJpKxedRVXp" Comment="Arguments Pattern" Bounds="305,628,46,15" ShowValueBox="true" isIOBox="true" Value="--{0} {1}">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1016,21 +1006,21 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="IIvxgStfA2fLhlLeWfWLxW" Name="Example offline conda script" Bounds="711,605,628,211">
+          <Overlay Id="IIvxgStfA2fLhlLeWfWLxW" Name="Example offline conda script: NNST" Bounds="723,579,628,237">
             <p:ColorIndex p:Type="Int32">9</p:ColorIndex>
           </Overlay>
-          <Overlay Id="KFgjuuG09WFP3ChiO622Km" Name="Example script usage: simple style test" Bounds="48,50,528,445">
+          <Overlay Id="KFgjuuG09WFP3ChiO622Km" Name="Example script usage: simple style test" Bounds="58,33,528,445">
             <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
           </Overlay>
-          <Pad Id="VNRcd3AlEtZM1dixZofnlS" Comment="KeyFrame Count" Bounds="794,202,35,15" ShowValueBox="true" isIOBox="true" Value="40">
+          <Pad Id="VNRcd3AlEtZM1dixZofnlS" Comment="KeyFrame Count" Bounds="801,202,35,15" ShowValueBox="true" isIOBox="true" Value="40">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="IGNiJYR55LvLDKqZ3C9ZgL" Name="Would be cool to make UI compnents for rigs" Bounds="92,94,446,287">
+          <Overlay Id="IGNiJYR55LvLDKqZ3C9ZgL" Name="Would be cool to make UI compnents for rigs" Bounds="102,77,446,287">
             <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
           </Overlay>
-          <Pad Id="JkU7gDddFqEN6LXAc96YwT" Bounds="1017,716,224,76" ShowValueBox="true" isIOBox="true" Value="Could be cool to turn into a class that also allows extra ops, follow up actions, views etc">
+          <Pad Id="JkU7gDddFqEN6LXAc96YwT" Bounds="1029,690,224,76" ShowValueBox="true" isIOBox="true" Value="Could be cool to turn into a class that also allows extra ops, follow up actions, views etc">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1039,7 +1029,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TItOpiOQ3MdLyv8ib31Lfk" Bounds="67,689,133,63" ShowValueBox="true" isIOBox="true" Value="Could be used for both Realtime and Offline scripts">
+          <Pad Id="TItOpiOQ3MdLyv8ib31Lfk" Bounds="54,666,133,63" ShowValueBox="true" isIOBox="true" Value="Could be used for both Realtime and Offline scripts">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1048,7 +1038,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="B4AOd755pg6PzYZ551LwV1" Bounds="598,103,136,19" ShowValueBox="true" isIOBox="true" Value="https://ebsynth.com/">
+          <Pad Id="B4AOd755pg6PzYZ551LwV1" Bounds="605,103,136,19" ShowValueBox="true" isIOBox="true" Value="https://ebsynth.com/">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1062,7 +1052,7 @@
     ************************ NameFromArgs ************************
 
 -->
-          <Node Name="NameFromArgs" Category="Application" Bounds="748,782" Id="R93aaEWP0vxNrOlpWiAUu9">
+          <Node Name="NameFromArgs" Category="Application" Bounds="760,756" Id="R93aaEWP0vxNrOlpWiAUu9">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -1184,11 +1174,6 @@
                 </Pad>
                 <ControlPoint Id="EAeem21DNIvM0sNKpYAkWS" Bounds="681,517" />
               </Canvas>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="I0st7Op73E5MCtfIfh1Fhs">
                 <Fragment Id="Fo1bcLKYK2RNiPJSU4NyoU" Patch="EoGKnwRtUfQM1REH9jkyYk" Enabled="true" />
                 <Fragment Id="FIZLUYuB2M0OQ48SU8r8SD" Patch="FT4mpPXHpY1Ple8r2yS41G" Enabled="true" />
@@ -1253,7 +1238,7 @@
               <Link Id="FNtLi7K7uqBMdd8sk4OZYR" Ids="RmrRgPEkPumMVGcImMAHDs,EAeem21DNIvM0sNKpYAkWS" IsHidden="true" />
             </Patch>
           </Node>
-          <Node Bounds="392,427,87,19" Id="D06S9PNiPgyMLFhst4RWmS">
+          <Node Bounds="402,410,87,19" Id="D06S9PNiPgyMLFhst4RWmS">
             <p:NodeReference LastCategoryFullName="Application" LastSymbolSource="NNST.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="NameFromArgs" />
@@ -1265,7 +1250,7 @@
             <Pin Id="BpEKCz1DbrXLN36ZWiqrS0" Name="Image Type" Kind="InputPin" />
             <Pin Id="IkkLaGQVVmpOe7Ga7lJzpF" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="NGy6jhbeITtMjE3SfLwpgo" Comment="Output Folder" Bounds="119,269,245,34" ShowValueBox="true" isIOBox="true">
+          <Pad Id="NGy6jhbeITtMjE3SfLwpgo" Comment="Output Folder" Bounds="129,252,245,34" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -1281,7 +1266,7 @@
               <Item>..\..\..\..\ProjectsOffline\NNST\StyleTests\\</Item>
             </p:Value>
           </Pad>
-          <Node Bounds="1023,274,125,131" Id="HDlyzXRd2m3Py8h1lIDkM6">
+          <Node Bounds="1030,274,125,132" Id="HDlyzXRd2m3Py8h1lIDkM6">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -1292,7 +1277,7 @@
               <Patch Id="V0YUwtQUKvCQa3daXKhGr6" Name="Create" ManuallySortedPins="true" />
               <Patch Id="Q9W7wpVKFszPvsgnnWDSIC" Name="Update" ManuallySortedPins="true" />
               <Patch Id="MjHhojQGeksNR2grVqYntH" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="1035,364,60,19" Id="H2dvKjiZRxtOzFU8HCOZUX">
+              <Node Bounds="1042,364,60,19" Id="H2dvKjiZRxtOzFU8HCOZUX">
                 <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="MakePath" />
@@ -1301,7 +1286,7 @@
                 <Pin Id="EDqJmngDUtCNARVNIvOCRN" Name="Input 2" Kind="InputPin" />
                 <Pin Id="Az435EWcGnDP6fhPKWMUgW" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="1070,309,57,19" Id="EoVdkrKDXqTPJcGaDO707z">
+              <Node Bounds="1077,309,57,19" Id="EoVdkrKDXqTPJcGaDO707z">
                 <p:NodeReference LastCategoryFullName="IO.Path" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Filename (Split)" />
@@ -1311,7 +1296,7 @@
                 <Pin Id="CTRErFhRt5hNwboL1Pm6E2" Name="Filename" Kind="OutputPin" />
                 <Pin Id="Cti0tCAMduXLdVr8glMydI" Name="Extension" Kind="OutputPin" />
               </Node>
-              <Node Bounds="1091,338,45,19" Id="RueHQ7kjZKpNxmMSmLmuuX">
+              <Node Bounds="1098,338,45,19" Id="RueHQ7kjZKpNxmMSmLmuuX">
                 <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="+" />
@@ -1322,10 +1307,10 @@
                 <Pin Id="ByxMVThK7XiMUxvE2T5m6y" Name="Input 3" Kind="InputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="SQPFzRmYVuSNYZrPh0iGaa" Bounds="1073,281" Alignment="Top" />
-            <ControlPoint Id="D25jRffqjmOPXLOvS2Hj6z" Bounds="1038,400" Alignment="Bottom" />
+            <ControlPoint Id="SQPFzRmYVuSNYZrPh0iGaa" Bounds="1080,280" Alignment="Top" />
+            <ControlPoint Id="D25jRffqjmOPXLOvS2Hj6z" Bounds="1045,400" Alignment="Bottom" />
           </Node>
-          <Pad Id="KffwI9CHjzUOyCwDHGfsAw" Comment="Output folder" Bounds="1038,216,95,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\ProjectsOffline\NNST\EbSynth Test\">
+          <Pad Id="KffwI9CHjzUOyCwDHGfsAw" Comment="Output folder" Bounds="1045,216,95,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\ProjectsOffline\NNST\EbSynth Test\keys\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -1333,7 +1318,7 @@
               <p:pathtype p:Assembly="VL.Core" p:Type="VL.Core.PathType">Directory</p:pathtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="790,372,65,19" Id="U4Q0OoMzqpGNiru27UEYsy">
+          <Node Bounds="797,372,65,19" Id="U4Q0OoMzqpGNiru27UEYsy">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -1342,7 +1327,7 @@
             <Pin Id="P1zdq0Mzq9yNCPIjW2QOVp" Name="Input" Kind="InputPin" />
             <Pin Id="K8VwvgULZ62PA4gyMfRU2I" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="TtwCpUR5GIyPeqKchhF4Ar" Comment="Style Path" Bounds="790,327,161,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\GoogleDrive\PersonalProjects\NNST\Styles\Masson-Landscape_of_Wonders.jpg">
+          <Pad Id="TtwCpUR5GIyPeqKchhF4Ar" Comment="Style Path" Bounds="797,327,161,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\GoogleDrive\PersonalProjects\NNST\Styles\Masson-Landscape_of_Wonders.jpg">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Path" />
               <FullNameCategoryReference ID="IO" />
@@ -1351,7 +1336,7 @@
               <p:pathtype p:Assembly="VL.Core" p:Type="VL.Core.PathType">File</p:pathtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="696,412,281,19" Id="ILPm0MpsRNwNLMDZ7c11D3">
+          <Node Bounds="703,412,281,19" Id="ILPm0MpsRNwNLMDZ7c11D3">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="NNSTScript" />
@@ -1362,7 +1347,7 @@
             <Pin Id="NyOEuKVmD1CL1qxw5aWKqt" Name="Output Path" Kind="InputPin" />
             <Pin Id="Lwkqyo66SwOOAnIdCDyyJx" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="877,367,65,19" Id="HOhaCoy4xwLNe0SByMPSgV">
+          <Node Bounds="884,367,65,19" Id="HOhaCoy4xwLNe0SByMPSgV">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -1371,19 +1356,29 @@
             <Pin Id="PNCzw9JOWgrNkMt9fURddb" Name="Input" Kind="InputPin" />
             <Pin Id="TQ3PLO6weyOQNaXD3AvZts" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="PBvLkobSiyFNaUvYXLq3nf" Comment="Style Weight" Bounds="879,351,36,15" ShowValueBox="true" isIOBox="true" Value="0.7">
+          <Pad Id="PBvLkobSiyFNaUvYXLq3nf" Comment="Style Weight" Bounds="886,351,36,15" ShowValueBox="true" isIOBox="true" Value="0.7">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="J1toJU7HB52LAX5tSq87tQ" Name="Example script Usage: Process for EbSynth" Bounds="590,53,629,396">
+          <Overlay Id="J1toJU7HB52LAX5tSq87tQ" Name="Example script Usage: Process for EbSynth" Bounds="597,53,629,396">
             <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
           </Overlay>
-          <Pad Id="CamafftznS6LQj5hEUP8Xm" Comment="Argument Dictionary" Bounds="698,466" isIOBox="true" />
+          <Pad Id="CamafftznS6LQj5hEUP8Xm" Comment="Argument Dictionary" Bounds="706,468" isIOBox="true" />
+          <Pad Id="RW2yw9OBEtTOSRPQS4J1dv" Comment="Id" Bounds="337,848,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Sh67Am5sEyyLa85nUUyxK7" Bounds="501,752,174,71" ShowValueBox="true" isIOBox="true" Value="Script, Envornment &amp; Conda path could be set by config manager perhaps">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="JLE0qGBupRlPDdSKDqZCN9" Name="Create" />
-        <Patch Id="RnOq4mYVSxGMInjRolwLwQ" Name="Update" ParticipatingElements="RYVH002AGLiPXLbT3a6QBY" />
+        <Patch Id="RnOq4mYVSxGMInjRolwLwQ" Name="Update" ParticipatingElements="FCwlM5NAePFMM0ZAYdCD5P" />
         <ProcessDefinition Id="VTAvKcOTvLTNYrCmAQ7AFJ">
           <Fragment Id="LTwAcHAuECHLnXN8xmFO08" Patch="JLE0qGBupRlPDdSKDqZCN9" Enabled="true" />
           <Fragment Id="DpHXvkC8VH8LaeMVOh1XFY" Patch="RnOq4mYVSxGMInjRolwLwQ" Enabled="true" />
@@ -1420,7 +1415,6 @@
         <Link Id="SJH8YaJTXRVL35iSVpXjkm" Ids="VvZe1GPPiPkN0MJZCtMqoE,Cibdejh2L6LNGdOuVZA38n" />
         <Link Id="QWeo0j4Yv2fPfpsXcfyCs5" Ids="SMPN41UdbXNPvRHIUvec5i,LAJ5gp99SoLMEqBtS0j10J" />
         <Link Id="LkicayhZfiMO1yMeojFF51" Ids="ViPHuH0fM0TP4cxkpFojlW,I5XA1nGPXPELfx3feJdCc6" />
-        <Link Id="RYVH002AGLiPXLbT3a6QBY" Ids="I5XA1nGPXPELfx3feJdCc6,V4WrvYeBxFxMTMCbZdZoG0" />
         <Link Id="QaGejK6FPprNOwHhDRyqsX" Ids="V4WrvYeBxFxMTMCbZdZoG0,BYMTxTzrGxbLBdmQAiCzOh" />
         <Link Id="HjBW4gtY7FaNDku3nVgPy8" Ids="HYWyBttzTp6NJpKxedRVXp,VkETvNjlIOcNWbRikJ8WOV" />
         <Link Id="FZYY11H6bOxOvMVh8whfLk" Ids="VNRcd3AlEtZM1dixZofnlS,MAP39TThgFMM8Z1BlqIy86" />
@@ -1444,6 +1438,8 @@
         <Link Id="P1iEYGEQE6qO4wI7ykEpef" Ids="PBvLkobSiyFNaUvYXLq3nf,PNCzw9JOWgrNkMt9fURddb" />
         <Link Id="FaYaInhbNf6QVJebXsfoGd" Ids="TQ3PLO6weyOQNaXD3AvZts,DtSbm0g448kNlaJkYw5vQN" />
         <Link Id="B08xW5K7B8bMuvKlRZxace" Ids="Lwkqyo66SwOOAnIdCDyyJx,CamafftznS6LQj5hEUP8Xm" />
+        <Link Id="B8SifsgaztjPbujM60ZNG6" Ids="GkCt8uvY2nRMkwDncaiTpe,RW2yw9OBEtTOSRPQS4J1dv" />
+        <Link Id="FCwlM5NAePFMM0ZAYdCD5P" Ids="I5XA1nGPXPELfx3feJdCc6,V4WrvYeBxFxMTMCbZdZoG0" />
       </Patch>
     </Node>
   </Patch>
